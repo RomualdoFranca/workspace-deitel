@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="capitulo09.exemplo.entities.BasePlusCommissionEmployee"/>
+    <fullyQualifiedTypeName name="capitulo09.exemplo.entities.CommissionEmployee"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+</qualifiedTypeNameHistroy>

@@ -35,13 +35,15 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 	//modificador de acesso 'protected
 	@Override
 	public double earnings() {
-		return getBaseSalary() + super.earnings();
+		return baseSalary + ( commissionRate * grossSales);
 	}
 	
 	//retorna a representaçao de String de BasePlusCommissionEmployee
 	@Override
 	public String toString() {
-		return String.format("%s: %s%n%s: %.2f ", "base-salaried", super.toString(),"base salary", getBaseSalary());
+		return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f%n%s: %.2f ", "commission employee", firstName,
+				lastName, "social security number", socialSecurityNumber, "gross sale", grossSales, "commission rate",
+				commissionRate, "base salary", baseSalary);
 
 	}
 

@@ -1,0 +1,10 @@
+package capitulo09.exemplo.entities;
+
+public class BasePlusCommissionEmployeeTest {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}// fim da classe
